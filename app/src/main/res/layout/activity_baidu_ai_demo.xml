@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wwwjf.demo.BaiduAIDemoActivity">
+    <Button
+        android:id="@+id/buttonOCRText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通用文字识别"/>
+    <Button
+        android:id="@+id/buttonOCRIdCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身份证识别"/>
+
+</LinearLayout>
