@@ -28,6 +28,7 @@ dependencies {
     compile files('libs/ocr-sdk.jar')
     // Because RxAndroid releases are few and far between, it is recommended you also
 // explicitly depend on RxJava's latest version for bug fixes and new features.
+    //文件选择器
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:25.0.0'
@@ -38,5 +39,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.9.0'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'io.reactivex.rxjava2:rxjava:2.1.7'
+    compile 'com.droidninja:filepicker:2.1.2'
     testCompile 'junit:junit:4.12'
 }

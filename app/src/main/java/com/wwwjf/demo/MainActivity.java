@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
@@ -22,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.buttonOkHttpDemo).setOnClickListener(this);
         findViewById(R.id.buttonRxAndroidDemo).setOnClickListener(this);
         findViewById(R.id.buttonEleStickHeaderDemo).setOnClickListener(this);
+        findViewById(R.id.buttonFilePickerDemo).setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +54,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.buttonEleStickHeaderDemo:
                 Intent intentEleStickHeader = new Intent(this, EleStickHeaderActivity.class);
                 startActivity(intentEleStickHeader);
+                break;
+            case R.id.buttonFilePickerDemo:
+                Intent intentFilePicker = new Intent(this,FileActivity.class);
+                startActivity(intentFilePicker);
                 break;
             default:
                 break;
