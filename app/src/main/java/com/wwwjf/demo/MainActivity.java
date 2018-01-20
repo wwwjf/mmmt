@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.buttonRxAndroidDemo).setOnClickListener(this);
         findViewById(R.id.buttonEleStickHeaderDemo).setOnClickListener(this);
         findViewById(R.id.buttonFilePickerDemo).setOnClickListener(this);
+        findViewById(R.id.buttonLottieDemo).setOnClickListener(this);
+
     }
 
     @Override
@@ -58,6 +60,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.buttonFilePickerDemo:
                 Intent intentFilePicker = new Intent(this,FileActivity.class);
                 startActivity(intentFilePicker);
+                break;
+            case R.id.buttonLottieDemo:
+                Intent intentLottie = new Intent(this,LottieDemoActivity.class);
+                startActivity(intentLottie);
                 break;
             default:
                 break;

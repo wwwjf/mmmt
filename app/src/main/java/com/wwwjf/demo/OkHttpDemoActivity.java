@@ -29,7 +29,7 @@ public class OkHttpDemoActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_okhttp_demo);
-        mTextViewResult = findViewById(R.id.textView_requestResult);
+        mTextViewResult = (TextView) findViewById(R.id.textView_requestResult);
     }
 
     public void okHttpGet(View view) {

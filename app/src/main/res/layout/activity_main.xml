@@ -60,5 +60,11 @@
         android:textAllCaps="false"
         android:text="文件选择demo"
         android:layout_height="wrap_content" />
+<Button
+        android:id="@+id/buttonLottieDemo"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="Lottie动画"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

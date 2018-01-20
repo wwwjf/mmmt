@@ -32,8 +32,8 @@ public class TabLayoutDemoActivity extends AppCompatActivity implements View.OnC
         String[] text = {"text1", "text2", "text3"};
         for (int i = 0; i < 3; i++) {
             View customView = mTabLayout3.getTabAt(i).getCustomView();
-            TextView textViewItem = customView.findViewById(R.id.textView_tabItem);
-            ImageView imageViewItem = customView.findViewById(R.id.imageView_tabItem);
+            TextView textViewItem = (TextView) customView.findViewById(R.id.textView_tabItem);
+            ImageView imageViewItem = (ImageView) customView.findViewById(R.id.imageView_tabItem);
             textViewItem.setText(text[i]);
             imageViewItem.setVisibility(View.INVISIBLE);
         }
