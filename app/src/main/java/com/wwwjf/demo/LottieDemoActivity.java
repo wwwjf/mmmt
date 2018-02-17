@@ -1,12 +1,9 @@
 package com.wwwjf.demo;
 
 import android.animation.Animator;
-import android.animation.AnimatorSet;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.animation.Animation;
-import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
 
@@ -19,8 +16,8 @@ public class LottieDemoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lottiedemo);
         mLottieAnimationView = (LottieAnimationView) findViewById(R.id.lottieAnimationView);
-        mLottieAnimationView.setImageAssetsFolder("Images/WeAccept");
-        mLottieAnimationView.setAnimation("WeAccept.json");
+//        mLottieAnimationView.setImageAssetsFolder("Images/WeAccept");
+        mLottieAnimationView.setAnimation("LottieLogo.json");
         mLottieAnimationView.playAnimation();
         mLottieAnimationView.loop(true);
         mLottieAnimationView.addAnimatorListener(new Animator.AnimatorListener() {

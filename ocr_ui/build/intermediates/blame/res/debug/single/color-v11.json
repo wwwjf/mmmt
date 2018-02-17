@@ -1,10 +1,18 @@
 [
     {
-        "merged": "E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]
