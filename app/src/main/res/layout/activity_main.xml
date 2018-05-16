@@ -67,4 +67,12 @@
         android:text="Lottie动画"
         android:layout_height="wrap_content" />
 
+<Button
+        android:id="@+id/buttonEventBusDemo"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="EventBusDemo"
+        android:layout_height="wrap_content" />
+
+
 </LinearLayout>

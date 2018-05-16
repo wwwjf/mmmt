@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_btn_colored_text_material.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_color_highlight_material.xml",
         "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_color_highlight_material.xml"
     },
@@ -16,36 +12,64 @@
         "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_switch_track.xml"
     },
     {
         "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_btn_checkable.xml",
         "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
         "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_btn_checkable.xml",
         "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
         "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_seek_thumb.xml",
@@ -60,23 +84,39 @@
         "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_switch_thumb.xml",
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_switch_thumb.xml",
         "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
         "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_edittext.xml",
         "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
         "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_btn_colored_text_material.xml",
         "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/C:\\Users\\wwwjf\\.android\\build-cache\\85ffb4a6338d5149b1f6adc2ad4c03242dcfdd38\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/wengjianfeng/.android/build-cache/158074e223a0908b10dd959108ccc95b85b0d3de/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     }
 ]

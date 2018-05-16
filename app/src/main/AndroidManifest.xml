@@ -59,7 +59,9 @@
         <activity android:name=".rxandroid.RxAndroidActivity" />
         <activity android:name=".elestickheader.EleStickHeaderActivity" />
         <activity android:name=".FileActivity" />
-        <activity android:name=".LottieDemoActivity"></activity>
+        <activity android:name=".LottieDemoActivity" />
+        <activity android:name=".eventbus.EventBus1Activity" />
+        <activity android:name=".eventbus.EventBus2Activity"></activity>
     </application>
 
 </manifest>

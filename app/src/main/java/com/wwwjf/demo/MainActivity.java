@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
+import com.wwwjf.demo.eventbus.EventBus1Activity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.buttonEleStickHeaderDemo).setOnClickListener(this);
         findViewById(R.id.buttonFilePickerDemo).setOnClickListener(this);
         findViewById(R.id.buttonLottieDemo).setOnClickListener(this);
+        findViewById(R.id.buttonEventBusDemo).setOnClickListener(this);
 
     }
 
@@ -64,6 +66,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.buttonLottieDemo:
                 Intent intentLottie = new Intent(this,LottieDemoActivity.class);
                 startActivity(intentLottie);
+                break;
+            case R.id.buttonEventBusDemo:
+                Intent intentEventBus = new Intent(this, EventBus1Activity.class);
+                startActivity(intentEventBus);
                 break;
             default:
                 break;
