@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,72 +7,95 @@
     android:orientation="vertical"
     tools:context="com.wwwjf.demo.MainActivity">
 
-    <Button
-        android:id="@+id/buttonTabLayoutDemo"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TabLayout自定义布局demo"
-        android:textAllCaps="false" />
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/buttonQQLoginDemo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="第三方QQ登录demo"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/buttonTabLayoutDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TabLayout自定义布局demo"
+            android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/buttonWechatDemo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="第三方微信登录demo"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/buttonQQLoginDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第三方QQ登录demo"
+            android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/buttonBaiduAIDemo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="百度AI demo"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/buttonWechatDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第三方微信登录demo"
+            android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/buttonOkHttpDemo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="OkHttp demo"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/buttonBaiduAIDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="百度AI demo"
+            android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/buttonRxAndroidDemo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RxAndroid demo"
-        android:textAllCaps="false" />
-    <Button
-        android:id="@+id/buttonEleStickHeaderDemo"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:text="仿饿了么列表demo"
-        android:layout_height="wrap_content" />
-<Button
-        android:id="@+id/buttonFilePickerDemo"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:text="文件选择demo"
-        android:layout_height="wrap_content" />
-<Button
-        android:id="@+id/buttonLottieDemo"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:text="Lottie动画"
-        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/buttonOkHttpDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OkHttp demo"
+            android:textAllCaps="false" />
 
-<Button
-        android:id="@+id/buttonEventBusDemo"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:text="EventBusDemo"
-        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/buttonRxAndroidDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RxAndroid demo"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/buttonEleStickHeaderDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="仿饿了么列表demo"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/buttonFilePickerDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文件选择demo"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/buttonLottieDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lottie动画"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/buttonEventBusDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EventBusDemo"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/buttonBottomNavigationDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BottomDemo"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/CircleDialogDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="circleDialogDemo"
+            android:textAllCaps="false" />
+    </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>

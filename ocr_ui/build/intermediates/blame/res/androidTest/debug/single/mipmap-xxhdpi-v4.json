@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4/ic_launcher.png",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/ocr_ui/build/intermediates/bundles/debug/res/mipmap-xxhdpi-v4/ic_launcher.png"
-    },
-    {
         "merged": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/wengjianfeng/github/mmmtest/ocr_ui/build/intermediates/bundles/debug/res/mipmap-xxhdpi-v4/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "/Users/wengjianfeng/Documents/github/mmmtest/mmmtest/E:\\workspace\\Demo\\ocr_ui\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_launcher.png"
     }
 ]

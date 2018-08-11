@@ -61,7 +61,11 @@
         <activity android:name=".FileActivity" />
         <activity android:name=".LottieDemoActivity" />
         <activity android:name=".eventbus.EventBus1Activity" />
-        <activity android:name=".eventbus.EventBus2Activity"></activity>
+        <activity android:name=".eventbus.EventBus2Activity" />
+        <activity
+            android:name=".BottomNavigationActivity"
+            android:label="@string/title_activity_bottom_navigation" />
+        <activity android:name=".CircleDialogActivity"></activity>
     </application>
 
 </manifest>

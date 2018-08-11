@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.buttonFilePickerDemo).setOnClickListener(this);
         findViewById(R.id.buttonLottieDemo).setOnClickListener(this);
         findViewById(R.id.buttonEventBusDemo).setOnClickListener(this);
+        findViewById(R.id.buttonBottomNavigationDemo).setOnClickListener(this);
+        findViewById(R.id.CircleDialogDemo).setOnClickListener(this);
 
     }
 
@@ -70,6 +72,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.buttonEventBusDemo:
                 Intent intentEventBus = new Intent(this, EventBus1Activity.class);
                 startActivity(intentEventBus);
+                break;
+            case R.id.buttonBottomNavigationDemo:
+                Intent intentBottomNavigation = new Intent(this, BottomNavigationActivity.class);
+                startActivity(intentBottomNavigation);
+                break;
+                case R.id.CircleDialogDemo:
+                Intent intentCircleDialog = new Intent(this, CircleDialogActivity.class);
+                startActivity(intentCircleDialog);
                 break;
             default:
                 break;
