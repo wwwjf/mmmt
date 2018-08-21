@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wwwjf.demo.ConstraintActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        android:text="TextView"
+        android:textColor="@drawable/tab_white"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonC" />
+
+    <TextView
+        android:id="@+id/buttonA"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#0ff"
+        android:gravity="center"
+        android:text="ButtonA"
+        android:textColor="@android:color/white"
+        app:layout_constraintHeight_percent="0.45"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/buttonB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00f"
+        android:gravity="center"
+        android:text="ButtonB"
+        android:textColor="@android:color/white"
+        app:layout_constraintHeight_percent="0.45"
+        app:layout_constraintLeft_toRightOf="@+id/buttonA"
+        app:layout_constraintTop_toTopOf="@+id/buttonA"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/buttonC"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#f00"
+        android:gravity="center"
+        android:text="ButtonC"
+        android:textColor="@android:color/white"
+        app:layout_constraintHeight_percent="0.45"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonA"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/buttonD"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#0F0"
+        android:gravity="center"
+        android:text="ButtonD"
+        android:textColor="@android:color/white"
+        app:layout_constraintHeight_percent="0.45"
+        app:layout_constraintLeft_toRightOf="@+id/buttonA"
+        app:layout_constraintTop_toBottomOf="@+id/buttonB"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.5" />
+
+</android.support.constraint.ConstraintLayout>

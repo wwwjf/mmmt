@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.buttonEventBusDemo).setOnClickListener(this);
         findViewById(R.id.buttonBottomNavigationDemo).setOnClickListener(this);
         findViewById(R.id.CircleDialogDemo).setOnClickListener(this);
+        findViewById(R.id.ConstraintDemo).setOnClickListener(this);
 
     }
 
@@ -80,6 +81,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case R.id.CircleDialogDemo:
                 Intent intentCircleDialog = new Intent(this, CircleDialogActivity.class);
                 startActivity(intentCircleDialog);
+                break;
+            case R.id.ConstraintDemo:
+                startActivity(new Intent(this,ConstraintActivity.class));
                 break;
             default:
                 break;

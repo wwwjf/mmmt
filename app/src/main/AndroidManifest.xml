@@ -65,7 +65,8 @@
         <activity
             android:name=".BottomNavigationActivity"
             android:label="@string/title_activity_bottom_navigation" />
-        <activity android:name=".CircleDialogActivity"></activity>
+        <activity android:name=".CircleDialogActivity" />
+        <activity android:name=".ConstraintActivity"></activity>
     </application>
 
 </manifest>

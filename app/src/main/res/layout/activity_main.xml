@@ -95,6 +95,12 @@
             android:layout_height="wrap_content"
             android:text="circleDialogDemo"
             android:textAllCaps="false" />
+        <Button
+            android:id="@+id/ConstraintDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="约束布局"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 
