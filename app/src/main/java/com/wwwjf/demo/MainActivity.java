@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.wwwjf.demo.costomView.LabelViewActivity;
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
 import com.wwwjf.demo.eventbus.EventBus1Activity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.buttonBottomNavigationDemo).setOnClickListener(this);
         findViewById(R.id.CircleDialogDemo).setOnClickListener(this);
         findViewById(R.id.ConstraintDemo).setOnClickListener(this);
+        findViewById(R.id.LabelViewDemo).setOnClickListener(this);
 
     }
 
@@ -85,6 +87,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.ConstraintDemo:
                 startActivity(new Intent(this,ConstraintActivity.class));
                 break;
+            case R.id.LabelViewDemo:
+                startActivity(new Intent(this, LabelViewActivity.class));
+                break;
+
             default:
                 break;
         }

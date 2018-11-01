@@ -101,6 +101,12 @@
             android:layout_height="wrap_content"
             android:text="约束布局"
             android:textAllCaps="false" />
+        <Button
+            android:id="@+id/LabelViewDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标签控件"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 
