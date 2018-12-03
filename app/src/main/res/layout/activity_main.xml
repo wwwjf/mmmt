@@ -107,6 +107,12 @@
             android:layout_height="wrap_content"
             android:text="标签控件"
             android:textAllCaps="false" />
+        <Button
+            android:id="@+id/greenDaoDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="greenDao"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 
