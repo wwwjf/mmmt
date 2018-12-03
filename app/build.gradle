@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion 26
@@ -24,6 +25,10 @@ android {
             maven { url 'https://jitpack.io' }
         }
     }
+}
+
+greendao {
+    schemaVersion 1
 }
 
 dependencies {
@@ -57,4 +62,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
     implementation 'org.tensorflow:tensorflow-lite:1.10.0'
+
+    implementation 'org.greenrobot:greendao:3.2.0'
+    implementation 'org.greenrobot:greendao-generator:3.2.0'
 }

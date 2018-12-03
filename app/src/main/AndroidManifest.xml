@@ -69,7 +69,8 @@
         <activity android:name=".ConstraintActivity" />
         <activity android:name=".eventbus.EventBus3Activity" />
         <activity android:name=".costomView.LabelViewActivity" />
-        <activity android:name=".tensorflow.TensorFlowLiteActivity"></activity>
+        <activity android:name=".tensorflow.TensorFlowLiteActivity" />
+        <activity android:name=".greendao.GreendaoActivity"></activity>
     </application>
 
 </manifest>
