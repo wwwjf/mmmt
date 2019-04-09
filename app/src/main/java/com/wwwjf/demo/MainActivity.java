@@ -9,6 +9,7 @@ import com.wwwjf.demo.costomView.LabelViewActivity;
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
 import com.wwwjf.demo.eventbus.EventBus1Activity;
 import com.wwwjf.demo.greendao.GreendaoActivity;
+import com.wwwjf.demo.localbroadcast.LocalBroadcast1Activity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.ConstraintDemo).setOnClickListener(this);
         findViewById(R.id.LabelViewDemo).setOnClickListener(this);
         findViewById(R.id.greenDaoDemo).setOnClickListener(this);
+        findViewById(R.id.localBroadcastDemo).setOnClickListener(this);
 
     }
 
@@ -94,6 +96,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.greenDaoDemo:
                 startActivity(new Intent(this, GreendaoActivity.class));
+                break;
+            case R.id.localBroadcastDemo:
+                startActivity(new Intent(this, LocalBroadcast1Activity.class));
                 break;
             default:
                 break;
