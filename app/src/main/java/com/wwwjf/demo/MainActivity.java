@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.wwwjf.demo.costomView.LabelViewActivity;
+import com.wwwjf.demo.dagger.DaggerDemoActivity;
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
 import com.wwwjf.demo.eventbus.EventBus1Activity;
 import com.wwwjf.demo.greendao.GreendaoActivity;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.LabelViewDemo).setOnClickListener(this);
         findViewById(R.id.greenDaoDemo).setOnClickListener(this);
         findViewById(R.id.localBroadcastDemo).setOnClickListener(this);
+        findViewById(R.id.daggerDemo).setOnClickListener(this);
 
     }
 
@@ -99,6 +101,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.localBroadcastDemo:
                 startActivity(new Intent(this, LocalBroadcast1Activity.class));
+                break;
+            case R.id.daggerDemo:
+                startActivity(new Intent(this,DaggerDemoActivity.class));
                 break;
             default:
                 break;
