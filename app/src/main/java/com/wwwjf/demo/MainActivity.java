@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.wwwjf.demo.costomView.LabelViewActivity;
+import com.wwwjf.demo.costomView.TouchListenerActivity;
 import com.wwwjf.demo.dagger.DaggerDemoActivity;
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
 import com.wwwjf.demo.eventbus.EventBus1Activity;
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this,ConstraintActivity.class));
                 break;
             case R.id.LabelViewDemo:
-                startActivity(new Intent(this, LabelViewActivity.class));
+                startActivity(new Intent(this, TouchListenerActivity.class));
                 break;
             case R.id.greenDaoDemo:
                 startActivity(new Intent(this, GreendaoActivity.class));
