@@ -17,5 +17,18 @@
         android:id="@+id/tv_touch_listener"
         android:background="#cccccc"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:text="textview"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content" />
+
+    <com.wwwjf.demo.costomView.MyView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#ccc"
+        android:paddingLeft="20dp"
+        android:paddingBottom="40dp"
+        app:exampleColor="#33b5e5"
+        app:exampleDimension="24sp"
+        app:exampleDrawable="@android:drawable/ic_menu_add"
+        app:exampleString="Hello, MyView" />
 </LinearLayout>
