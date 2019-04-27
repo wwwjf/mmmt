@@ -125,6 +125,12 @@
             android:layout_height="wrap_content"
             android:text="daggerDemo"
             android:textAllCaps="false" />
+        <Button
+            android:id="@+id/statusbarDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="statusbarDemo"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 

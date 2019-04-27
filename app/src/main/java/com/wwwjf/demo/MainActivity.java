@@ -13,6 +13,7 @@ import com.wwwjf.demo.eventbus.EventBus1Activity;
 import com.wwwjf.demo.greendao.GreendaoActivity;
 import com.wwwjf.demo.localbroadcast.LocalBroadcast1Activity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
+import com.wwwjf.demo.statusbar.StatusbarActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.greenDaoDemo).setOnClickListener(this);
         findViewById(R.id.localBroadcastDemo).setOnClickListener(this);
         findViewById(R.id.daggerDemo).setOnClickListener(this);
+        findViewById(R.id.statusbarDemo).setOnClickListener(this);
 
     }
 
@@ -105,6 +107,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.daggerDemo:
                 startActivity(new Intent(this,DaggerDemoActivity.class));
+                break;
+            case R.id.statusbarDemo:
+                startActivity(new Intent(this, StatusbarActivity.class));
                 break;
             default:
                 break;

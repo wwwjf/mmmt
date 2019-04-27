@@ -20,7 +20,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:name">
-        <activity android:name=".costomView.TouchListenerActivity"></activity>
+        <activity android:name=".statusbar.StatusbarActivity"></activity>
+        <activity android:name=".costomView.TouchListenerActivity" />
         <activity android:name=".dagger.DaggerDemoActivity" />
         <activity android:name=".localbroadcast.LocalBroadcast2Activity" />
         <activity android:name=".localbroadcast.LocalBroadcast1Activity" />
