@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".stack.activity.StackSingleinstanceActivity">
+
+    <Button
+        android:id="@+id/btn_stack_activity_singleinstance"
+        android:layout_width="match_parent"
+        android:text="standard跳转_4"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_stack_activity_singleinstance2"
+        android:layout_width="match_parent"
+        android:text="singletop跳转_4"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_stack_activity_singleinstance3"
+        android:layout_width="match_parent"
+        android:text="singletask跳转_4"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_stack_activity_singleinstance4"
+        android:layout_width="match_parent"
+        android:text="singleinstance跳转_4"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

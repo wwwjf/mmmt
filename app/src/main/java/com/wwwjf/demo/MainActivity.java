@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.wwwjf.demo.costomView.LabelViewActivity;
 import com.wwwjf.demo.costomView.TouchListenerActivity;
 import com.wwwjf.demo.dagger.DaggerDemoActivity;
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
@@ -13,6 +12,7 @@ import com.wwwjf.demo.eventbus.EventBus1Activity;
 import com.wwwjf.demo.greendao.GreendaoActivity;
 import com.wwwjf.demo.localbroadcast.LocalBroadcast1Activity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
+import com.wwwjf.demo.stack.activity.StackActivity;
 import com.wwwjf.demo.statusbar.StatusbarActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.localBroadcastDemo).setOnClickListener(this);
         findViewById(R.id.daggerDemo).setOnClickListener(this);
         findViewById(R.id.statusbarDemo).setOnClickListener(this);
+        findViewById(R.id.stackDemo).setOnClickListener(this);
 
     }
 
@@ -110,6 +111,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.statusbarDemo:
                 startActivity(new Intent(this, StatusbarActivity.class));
+                break;
+            case R.id.stackDemo:
+                startActivity(new Intent(this, StackActivity.class));
                 break;
             default:
                 break;
