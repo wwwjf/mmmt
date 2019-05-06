@@ -20,20 +20,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:name">
-
+        <activity android:name=".animation.AnimationActivity"></activity>
         <activity android:name=".stack.activity.StackActivity" />
-
         <activity
             android:name=".stack.activity.StackSingletopActivity"
             android:launchMode="singleTop" />
         <activity
             android:name=".stack.activity.StackSingletaskActivity"
-            android:taskAffinity="com.wwwjf.stack.task01"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:taskAffinity="com.wwwjf.stack.task01" />
         <activity
             android:name=".stack.activity.StackSingleinstanceActivity"
             android:launchMode="singleInstance" />
-
         <activity android:name=".statusbar.StatusbarActivity" />
         <activity android:name=".costomView.TouchListenerActivity" />
         <activity android:name=".dagger.DaggerDemoActivity" />

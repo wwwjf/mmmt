@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".animation.AnimationActivity">
+
+    <ImageView
+        android:id="@+id/iv_anim_frame_java"
+        android:layout_width="wrap_content"
+        android:background="@drawable/sample_footer_loading"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_anim_frame"
+        android:layout_width="wrap_content"
+        android:background="@drawable/anim_frame"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_anim_tween"
+        android:layout_width="100dp"
+        android:src="@drawable/sample_footer_loading"
+        android:layout_height="100dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:indeterminate="true"
+        android:background="#00ff00"
+        android:indeterminateDrawable="@drawable/anim_frame_progressbar"
+        android:indeterminateBehavior="repeat"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_anim_frame3"
+        android:layout_width="wrap_content"
+        android:src="@drawable/anim_frame_animate_rotate"
+        android:layout_height="wrap_content" />
+</LinearLayout>

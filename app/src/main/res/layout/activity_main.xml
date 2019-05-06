@@ -137,6 +137,12 @@
             android:layout_height="wrap_content"
             android:text="activity/fragment相关"
             android:textAllCaps="false" />
+        <Button
+            android:id="@+id/animateDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="动画"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 

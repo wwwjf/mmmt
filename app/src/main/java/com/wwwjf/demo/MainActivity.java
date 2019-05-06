@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.wwwjf.demo.animation.AnimationActivity;
 import com.wwwjf.demo.costomView.TouchListenerActivity;
 import com.wwwjf.demo.dagger.DaggerDemoActivity;
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.daggerDemo).setOnClickListener(this);
         findViewById(R.id.statusbarDemo).setOnClickListener(this);
         findViewById(R.id.stackDemo).setOnClickListener(this);
+        findViewById(R.id.animateDemo).setOnClickListener(this);
 
     }
 
@@ -114,6 +116,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.stackDemo:
                 startActivity(new Intent(this, StackActivity.class));
+                break;
+            case R.id.animateDemo:
+                startActivity(new Intent(this, AnimationActivity.class));
                 break;
             default:
                 break;
