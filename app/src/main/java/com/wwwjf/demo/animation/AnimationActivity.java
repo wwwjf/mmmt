@@ -1,5 +1,7 @@
 package com.wwwjf.demo.animation;
 
+import android.animation.Animator;
+import android.animation.AnimatorInflater;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.graphics.drawable.AnimationDrawable;
@@ -8,6 +10,7 @@ import android.support.graphics.drawable.AnimationUtilsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ViewPropertyAnimator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.AnimationUtils;
@@ -79,15 +82,22 @@ public class AnimationActivity extends AppCompatActivity {
         });
         animator.start();
 
-        //
-        ObjectAnimator rotationAnimator = new ObjectAnimator();
+        //loading 动画
+
+        //代码中实现
+        /*ObjectAnimator rotationAnimator = new ObjectAnimator();
         rotationAnimator.setPropertyName("rotation");
         rotationAnimator.setTarget(ivPropertyAnim);
         rotationAnimator.setDuration(1000);
         rotationAnimator.setFloatValues(0,360);
         rotationAnimator.setRepeatCount(ValueAnimator.INFINITE);
         rotationAnimator.setRepeatMode(ValueAnimator.RESTART);
-        rotationAnimator.start();
+        rotationAnimator.start();*/
+
+        //xml中实现
+        Animator loadAnimator = AnimatorInflater.loadAnimator(this, R.animator.anim_animator);
+        loadAnimator.setTarget(ivPropertyAnim);
+        loadAnimator.start();
 
     }
 }
