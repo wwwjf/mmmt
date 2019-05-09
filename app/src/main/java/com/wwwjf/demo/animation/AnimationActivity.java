@@ -1,10 +1,13 @@
 package com.wwwjf.demo.animation;
 
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.graphics.drawable.AnimationUtilsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.AnimationUtils;
@@ -16,10 +19,12 @@ import com.wwwjf.demo.R;
 
 public class AnimationActivity extends AppCompatActivity {
 
+    private static final String TAG = AnimationActivity.class.getSimpleName();
     private ImageView ivFrameAnimJava;
     private ImageView ivFrameAnim;
     private ImageView ivFrameAnim3;
     private ImageView ivTweenAnim;
+    private ImageView ivPropertyAnim;
 
 
     @Override
@@ -30,6 +35,7 @@ public class AnimationActivity extends AppCompatActivity {
         ivFrameAnim = findViewById(R.id.iv_anim_frame);
         ivTweenAnim = findViewById(R.id.iv_anim_tween);
         ivFrameAnim3 = findViewById(R.id.iv_anim_frame3);
+        ivPropertyAnim = findViewById(R.id.iv_anim_property);
 
         //代码中设置帧动画
 //        for (int i = 0; i < 2; i++) {
@@ -60,6 +66,28 @@ public class AnimationActivity extends AppCompatActivity {
 
         animationTween.start();
 
+
+        //属性动画
+        ValueAnimator animator = ValueAnimator.ofFloat(0.0f,1.0f);
+        animator.setDuration(1000);
+        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                float value = (float) animation.getAnimatedValue();
+                Log.e(TAG, "onAnimationUpdate: value="+value);
+            }
+        });
+        animator.start();
+
+        //
+        ObjectAnimator rotationAnimator = new ObjectAnimator();
+        rotationAnimator.setPropertyName("rotation");
+        rotationAnimator.setTarget(ivPropertyAnim);
+        rotationAnimator.setDuration(1000);
+        rotationAnimator.setFloatValues(0,360);
+        rotationAnimator.setRepeatCount(ValueAnimator.INFINITE);
+        rotationAnimator.setRepeatMode(ValueAnimator.RESTART);
+        rotationAnimator.start();
 
     }
 }
