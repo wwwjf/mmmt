@@ -15,6 +15,7 @@ import com.wwwjf.demo.localbroadcast.LocalBroadcast1Activity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
 import com.wwwjf.demo.stack.activity.StackActivity;
 import com.wwwjf.demo.statusbar.StatusbarActivity;
+import com.wwwjf.demo.thread.ThreadDemoActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.statusbarDemo).setOnClickListener(this);
         findViewById(R.id.stackDemo).setOnClickListener(this);
         findViewById(R.id.animateDemo).setOnClickListener(this);
+        findViewById(R.id.threadDemo).setOnClickListener(this);
 
     }
 
@@ -119,6 +121,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.animateDemo:
                 startActivity(new Intent(this, AnimationActivity.class));
+                break;
+            case R.id.threadDemo:
+                startActivity(new Intent(this, ThreadDemoActivity.class));
                 break;
             default:
                 break;
