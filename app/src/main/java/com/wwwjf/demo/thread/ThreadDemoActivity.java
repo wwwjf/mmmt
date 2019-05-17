@@ -1,26 +1,33 @@
 package com.wwwjf.demo.thread;
 
+import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ProgressBar;
 
 import com.wwwjf.demo.R;
 
+import java.lang.ref.WeakReference;
+
 public class ThreadDemoActivity extends AppCompatActivity {
 
+    private static final String TAG = ThreadDemoActivity.class.getSimpleName();
     private ProgressBar progressBarHandler;
     private ProgressBar progressBarAsyncTask;
     private Handler mHandler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
+            Log.e(TAG, "handleMessage: msg.arg1="+msg.arg1);
             progressBarHandler.setProgress(msg.arg1);
         }
     };
+    private UpdateProgressHandler mUpdateProgressHandler;
 
 
     @Override
@@ -30,6 +37,8 @@ public class ThreadDemoActivity extends AppCompatActivity {
 
         progressBarHandler = findViewById(R.id.pb_thread_handler);
         progressBarAsyncTask = findViewById(R.id.pb_thread_asynctask);
+
+        mUpdateProgressHandler = new UpdateProgressHandler(this);
 
         handlerThread();
 
@@ -53,10 +62,10 @@ public class ThreadDemoActivity extends AppCompatActivity {
             public void run() {
                 flag = true;
                 while (flag){
-                    Message msg = Message.obtain();
+                    Message msg = mUpdateProgressHandler.obtainMessage();
                     msg.arg1 = i;
-                    SystemClock.sleep(100);
-                    mHandler.sendMessage(msg);
+                    SystemClock.sleep(1000);
+                    mUpdateProgressHandler.sendMessage(msg);
                     if (i==100){
                         flag = false;
                     }
@@ -68,6 +77,10 @@ public class ThreadDemoActivity extends AppCompatActivity {
     }
 
 
+    private void updateProgressView(int progress){
+        Log.e(TAG, "updateProgressView: progress="+progress);
+        progressBarHandler.setProgress(progress);
+    }
 
     private void asyncTaskThread() {
 
@@ -106,4 +119,28 @@ public class ThreadDemoActivity extends AppCompatActivity {
             progressBarAsyncTask.setProgress(values[0]);
         }
     }
+
+    static class UpdateProgressHandler extends Handler{
+        WeakReference<Activity> mWeakReference;
+        public UpdateProgressHandler(Activity activity){
+            mWeakReference = new WeakReference<>(activity);
+        }
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            ThreadDemoActivity activity = (ThreadDemoActivity) mWeakReference.get();
+            if (activity == null){
+                Log.e(TAG, "handleMessage: activity == null");
+                return;
+            }
+            if (activity.isFinishing()){
+                Log.e(TAG, "handleMessage: activity.isFinishing()");
+                removeCallbacksAndMessages(null);
+                return;
+            }
+            activity.updateProgressView(msg.arg1);
+        }
+    }
+
+
 }
