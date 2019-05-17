@@ -13,6 +13,11 @@ import android.widget.ProgressBar;
 import com.wwwjf.demo.R;
 
 import java.lang.ref.WeakReference;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 public class ThreadDemoActivity extends AppCompatActivity {
 
@@ -43,6 +48,8 @@ public class ThreadDemoActivity extends AppCompatActivity {
         handlerThread();
 
         asyncTaskThread();
+
+        executorServiceThread();
     }
 
     //1、handler机制
@@ -143,4 +150,32 @@ public class ThreadDemoActivity extends AppCompatActivity {
     }
 
 
+    // ExecutorService
+    // newSingleThreadExecutor 单线程的线程池
+    // newFixedThreadPool 固定大小的线程池，没提交一个任务，创建一个线程，直到最大
+    // newCachedThreadPool 可变尺寸大小的线程池，如果60s不执行任务的线程会被回收
+    // newScheduledThreadPool 延时执行或定时执行的线程池
+    private void executorServiceThread() {
+
+        ExecutorService threadPool1 = Executors.newSingleThreadExecutor();
+        ExecutorService threadPool2 = Executors.newFixedThreadPool(10);
+        for (int i = 0; i < 30; i++) {
+            threadPool2.execute(new Runnable() {
+                @Override
+                public void run() {
+                    Log.e(TAG, "run: " + Thread.currentThread().getName());
+                    SystemClock.sleep(1000);
+                }
+            });
+        }
+
+        ExecutorService threadPool3 = Executors.newCachedThreadPool();
+        ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(2);
+        scheduledThreadPool.schedule(new Runnable() {
+            @Override
+            public void run() {
+                Log.e(TAG, "run: " + Thread.currentThread().getName());
+            }
+        },1, TimeUnit.SECONDS);
+    }
 }
