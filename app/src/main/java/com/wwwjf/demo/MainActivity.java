@@ -10,6 +10,7 @@ import com.wwwjf.demo.costomView.TouchListenerActivity;
 import com.wwwjf.demo.dagger.DaggerDemoActivity;
 import com.wwwjf.demo.elestickheader.EleStickHeaderActivity;
 import com.wwwjf.demo.eventbus.EventBus1Activity;
+import com.wwwjf.demo.gesturedetector.GestureDetectorActivity;
 import com.wwwjf.demo.greendao.GreendaoActivity;
 import com.wwwjf.demo.localbroadcast.LocalBroadcast1Activity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.stackDemo).setOnClickListener(this);
         findViewById(R.id.animateDemo).setOnClickListener(this);
         findViewById(R.id.threadDemo).setOnClickListener(this);
+        findViewById(R.id.gesturedetectorDemo).setOnClickListener(this);
 
     }
 
@@ -124,6 +126,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.threadDemo:
                 startActivity(new Intent(this, ThreadDemoActivity.class));
+                break;
+            case R.id.gesturedetectorDemo:
+                startActivity(new Intent(this, GestureDetectorActivity.class));
                 break;
             default:
                 break;

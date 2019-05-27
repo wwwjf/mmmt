@@ -20,7 +20,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:name">
-        <activity android:name=".thread.ThreadDemoActivity"></activity>
+        <activity android:name=".gesturedetector.GestureDetectorActivity"></activity>
+        <activity android:name=".thread.ThreadDemoActivity" />
         <activity android:name=".animation.AnimationActivity" />
         <activity android:name=".stack.activity.StackActivity" />
         <activity
