@@ -13,6 +13,7 @@ import com.wwwjf.demo.eventbus.EventBus1Activity;
 import com.wwwjf.demo.gesturedetector.GestureDetectorActivity;
 import com.wwwjf.demo.greendao.GreendaoActivity;
 import com.wwwjf.demo.localbroadcast.LocalBroadcast1Activity;
+import com.wwwjf.demo.objectbox.ObjectBoxActivity;
 import com.wwwjf.demo.rxandroid.RxAndroidActivity;
 import com.wwwjf.demo.stack.activity.StackActivity;
 import com.wwwjf.demo.statusbar.StatusbarActivity;
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.animateDemo).setOnClickListener(this);
         findViewById(R.id.threadDemo).setOnClickListener(this);
         findViewById(R.id.gesturedetectorDemo).setOnClickListener(this);
+        findViewById(R.id.objectBoxDemo).setOnClickListener(this);
 
     }
 
@@ -129,6 +131,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.gesturedetectorDemo:
                 startActivity(new Intent(this, GestureDetectorActivity.class));
+                break;
+            case R.id.objectBoxDemo:
+                startActivity(new Intent(this, ObjectBoxActivity.class));
                 break;
             default:
                 break;

@@ -8,6 +8,7 @@ import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 import com.wwwjf.demo.greendao.DBManager;
 import com.wwwjf.demo.greendao.DaoMaster;
 import com.wwwjf.demo.greendao.DaoSession;
+import com.wwwjf.demo.objectbox.ObjectBoxManager;
 
 /**
  * Created by wwwjf on 2017/10/21.
@@ -30,6 +31,9 @@ public class BaseApplication extends Application {
 
         //配置数据库
         DBManager.getInstance(this).getWritableDatabase();
+
+        //ObjectBox
+        ObjectBoxManager.init(this);
     }
     private void registToWX() {
 

@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'io.objectbox'
+
 
 android {
     compileSdkVersion 26
@@ -69,4 +71,8 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-compiler:2.22.1'
 
     implementation 'com.jaeger.statusbarutil:library:1.4.0'
+
+
+    // 这一句是添加 RxJava 扩展
+    implementation 'io.objectbox:objectbox-rxjava:0.9.8'
 }
